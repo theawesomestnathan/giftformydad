@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply font-cedarville text-4xl;
+}
+
+p {
+  @apply font-helvetica text-lg;
+}
+
+::-webkit-scrollbar {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-sm;
+}
